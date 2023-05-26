@@ -25,7 +25,6 @@ setup(
         "nest-asyncio==1.5.6",
         "requests==2.31.0",
         "urllib3==2.0.2",
-        "yarl==1.9.2"
     ],
     classifiers=[
         "Programming Language :: Python :: 3",
