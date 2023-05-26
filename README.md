@@ -20,7 +20,7 @@ Since the package is not hosted on PyPi, you'll have to clone the repository and
 1. Clone the repository to your local machine:
 
 ```
-git clone https://github.com/yourusername/WebPageLinkMiner.git
+git clone https://github.com/ojasskapre/WebPageLinkMiner.git
 ```
 
 2. Navigate to the repository:
