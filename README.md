@@ -35,6 +35,21 @@ cd WebPageLinkMiner
 pip install .
 ```
 
+<br>
+To install the library in different project
+
+1. Install using pip
+
+```
+pip install git+https://github.com/ojasskapre/WebPageLinkMiner.git#egg=WebPageLinkMiner
+```
+
+2. Now you can import the library using
+
+```
+from webpagelinkminer import WebPageLinkExtractor
+```
+
 ## Usage
 
 1. **Simple usage example:**
