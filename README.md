@@ -32,7 +32,7 @@ cd WebPageLinkMiner
 3. Install the package:
 
 ```
-python setup.py install
+pip install .
 ```
 
 ## Usage

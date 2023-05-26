@@ -6,12 +6,12 @@ with open("README.md", "r", encoding="utf-8") as readme_file:
 setup(
     name="WebPageLinkMiner",
     version="0.1.0",
-    author="Your Name",
-    author_email="your.email@example.com",
+    author="Ojas Kapre",
+    author_email="ojasskapre@gmail.com",
     description="A Python library for extracting all the links from a given domain.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/WebPageLinkMiner",
+    url="https://github.com/ojasskapre/WebPageLinkMiner",
     packages=find_packages(),
     install_requires=[
         "aiohttp==3.8.4",
@@ -25,6 +25,7 @@ setup(
         "nest-asyncio==1.5.6",
         "requests==2.31.0",
         "urllib3==2.0.2",
+        "yarl==1.9.2"
     ],
     classifiers=[
         "Programming Language :: Python :: 3",
