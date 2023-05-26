@@ -1,0 +1,64 @@
+# Python-related files
+*.pyc
+*.pyo
+__pycache__/
+
+# Dependency directories
+venv/
+env/
+*.env
+
+# Compiled files
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Miscellaneous
+.DS_Store
+.idea/
+.vscode/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Ignore example notebook checkpoints
+notebooks/**/.ipynb_checkpoints/
+
+# Ignore example notebook outputs
+notebooks/**/*.ipynb
+
+# Ignore generated HTML files
+docs/*.html
+
+# Ignore distribution files
+dist/
+build/
+*.egg-info/
+
+# Ignore log files
+*.log
+log/
+
+# Ignore temporary files
+*.tmp
+
+# Ignore credentials and sensitive information
+credentials.json
+secrets.json
+
+# Ignore user-specific files
+*.bak
+*.swp
+*~
+
+# Ignore environment-specific files
+.env
+.env.local
+.env.*.local
+.env.override
+.env.*.override
+
+# Ignore package management files
+pip-lock.txt
+pipenv.lock
